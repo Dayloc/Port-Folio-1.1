@@ -1,0 +1,42 @@
+body{
+    background-image: url("./assets/img/r2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.neon-text {
+  color: rgb(237, 72, 246);
+  text-shadow: 0 0 4px rgb(255, 0, 195), 0 0 8px rgb(255, 0, 149), 0 0 15px rgb(255, 0, 123);
+  font-size: xx-large;
+}
+/* Asegúrate de que el body y html ocupen el 100% de altura */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Wrapper general como flex container */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* altura mínima = altura de la pantalla */
+}
+
+/* Contenido que puede crecer */
+.content {
+  flex: 1; /* ocupa todo el espacio disponible entre header y footer */
+}
+
+/* Footer al final */
+.footer {
+  padding: 1rem;
+  text-align: center;
+
+  color: #0ff;
+  box-shadow: 0 -2px 5px rgba(0, 255, 255, 0.2);
+}

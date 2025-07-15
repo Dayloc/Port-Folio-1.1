@@ -1,18 +1,29 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
+	
+
+	const navigate= useNavigate();
+
+	const interNavigate= (addres)=>{
+   
+		 navigate(addres)
+
+	}
 
 	return (
-		<nav className="navbar navbar-light bg-light">
+		<nav className="navbar ">
 			<div className="container">
-				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div>
+				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/")}>🏠Home</button>
+				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/myLife")} >My Life</button>
+				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/proyects")} >Poyects</button>
+				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/studies")}>Study</button>
+				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/experience")}>Expirience</button>
+				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/tecnology")}>Tecnology</button>
+				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/future")}>Future</button>
+
 			</div>
 		</nav>
 	);
