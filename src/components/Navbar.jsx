@@ -18,7 +18,7 @@ export const Navbar = () => {
 			<div className="container">
 				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/")}>🏠Home</button>
 				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/myLife")} >My Life</button>
-				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/proyects")} >Poyects</button>
+				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/projects")} >Poyects</button>
 				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/studies")}>Study</button>
 				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/experience")}>Expirience</button>
 				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/tecnology")}>Tecnology</button>

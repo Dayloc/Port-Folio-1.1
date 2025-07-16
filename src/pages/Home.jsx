@@ -6,8 +6,15 @@ export const Home = () => {
   const {store, dispatch} =useGlobalReducer()
 
 	return (
-		<div className="text-center mt-5 text-info ">
-			Esta será una breve introduccion de cuales son mis espectativas en el futuro y de que es lo que me gustaría hacer
+		<div className="container text-center mt-5 text-info ">
+		<h1 className="typewriter text-warning mb-5">💥¡Hola! Soy Dayloc — Desarrollador apasionado y creador <br /> de experiencias digitales funcionales.</h1> 
+    	
+		
+		<p className="typewriter">
+		
+
+	Te invito a que me conozcas y exploremos juntos mi trayectoria digital <br />y descubre el futuro que podemos construir juntos!
+    </p>
 		</div>
 	);
 }; 
