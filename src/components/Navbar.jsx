@@ -16,13 +16,13 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar ">
 			<div className="container">
-				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/")}>🏠Home</button>
-				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/myLife")} >My Life</button>
-				<button type="button" class="btn btn-outline-primary"  onClick={()=>interNavigate("/projects")} >Poyects</button>
-				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/studies")}>Study</button>
-				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/experience")}>Expirience</button>
-				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/tecnology")}>Tecnology</button>
-				<button type="button" class="btn btn-outline-primary" onClick={()=>interNavigate("/future")}>Future</button>
+				<button type="button" class="btn btn-outline-danger"  onClick={()=>interNavigate("/")}>🏠Home</button>
+				<button type="button" class="btn btn-outline-danger"  onClick={()=>interNavigate("/myLife")} >My Life</button>
+				<button type="button" class="btn btn-outline-danger"  onClick={()=>interNavigate("/projects")} >Poyects</button>
+				<button type="button" class="btn btn-outline-danger" onClick={()=>interNavigate("/studies")}>Study</button>
+				<button type="button" class="btn btn-outline-danger" onClick={()=>interNavigate("/experience")}>Expirience</button>
+				<button type="button" class="btn btn-outline-danger" onClick={()=>interNavigate("/tecnology")}>Tecnology</button>
+				<button type="button" class="btn btn-outline-danger" onClick={()=>interNavigate("/future")}>Future</button>
 
 			</div>
 		</nav>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Studies() {
   return (
-    <div className=" text-info">
+    <div className=" text-warning">
       <h1 className="text-danger">FORMACIÓN</h1>
       <div className="container">
         <div className="row ">
@@ -23,7 +23,7 @@ function Studies() {
         </div>
       </div>
 
-      <h3 className="text-warning">CERTIFICATIONS</h3>
+      <h3 className="text-dark-emphasis">CERTIFICATIONS</h3>
       <span className="certification">      
       </span>
       <div className="m-0">
