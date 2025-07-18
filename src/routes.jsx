@@ -38,5 +38,8 @@ export const router = createBrowserRouter(
        <Route path="/technology" element={<Technology />} />
        <Route path="/future" element={<Future />} />
       </Route>
-    )
+    ),
+    {
+    basename: "/Port-Folio-1.1",  
+  }
 );

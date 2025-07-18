@@ -1,4 +1,4 @@
-import rigoImageUrl from "../assets/img/rigo-baby.jpg";
+import follow_mw2 from "src\assets\img\follow_mw2.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 import { useNavigate } from "react-router-dom"; 
 
@@ -18,7 +18,7 @@ export const Home = () => {
 	Te invito a que me conozcas y exploremos juntos mi trayectoria digital <br />así como  el futuro que podemos construir juntos!
     </p>
 	<div class="cuadro-fade">
-		<img src="/src/assets/img/follow_mw2.jpg" alt="" className="follow" onClick={()=>navigate('/myLife')}/>
+		<img src={follow_mw2} alt="" className="follow" onClick={()=>navigate('/myLife')}/>
 	</div>
 	<div>
 		<button className="btn btn-danger"  onClick={()=>navigate('/myLife')} > Next</button>

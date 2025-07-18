@@ -1,4 +1,5 @@
 import React from "react";
+import titulo from "src\assets\img\Titulo.jpg";
 import { useNavigate } from "react-router-dom"; 
 
 function Studies() {
@@ -30,7 +31,7 @@ function Studies() {
       </span>
       <div className="m-0">
         <img
-          src="/src/assets/img/Titulo.jpg"
+          src={titulo}
           alt=""
           className="titulo img-fluid object-fit-contain"
         />
