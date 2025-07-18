@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import react from "../assets/img/react.png";
-import js from "../assets/img/js.jpg";
+import javaScript from "../assets/img/js.jpg";
 import ts from "../assets/img/typescript_logo.png";
 import py from "../assets/img/python.jpg";
 import html5 from "../assets/img/html5.jpg";
@@ -33,7 +33,7 @@ function Technology() {
 
         <div className="col-6 col-sm-6 col-md-3 col-lg-2 d-flex align-items-center gap-2 mb-3">
           <div className='ratio ratio-1x1' style={{maxWidth: '50px'}}>
-            <img src={js} alt="JavaScript logo" className='technologies-img' />
+            <img src={javaScript} alt="JavaScript logo" className='technologies-img' />
           </div>
           JavaScript
         </div>
