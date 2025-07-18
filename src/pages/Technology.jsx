@@ -32,8 +32,8 @@ function Technology() {
         </div>
 
         <div className="col-6 col-sm-6 col-md-3 col-lg-2 d-flex align-items-center gap-2 mb-3">
-          <div className='ratio ratio-1x1' style={{maxWidth: '50px'}}>
-            <img src={javaScript} alt="JavaScript logo" className='technologies-img' />
+          <div className='ratio ratio-1x1 bg-warning text-center' style={{maxWidth: '50px'}}>
+            <p className='text-dark fs-1 '>JS</p>
           </div>
           JavaScript
         </div>
