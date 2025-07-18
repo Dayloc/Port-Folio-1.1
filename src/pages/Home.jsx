@@ -1,4 +1,4 @@
-import follow_mw2 from "src\assets\img\follow_mw2.jpg";
+import follow_mw2 from "src/assets/img/follow_mw2.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 import { useNavigate } from "react-router-dom"; 
 
