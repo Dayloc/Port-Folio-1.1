@@ -1,5 +1,5 @@
 import React from "react";
-import titulo from "src/assets/img/Titulo.jpg";
+import titulo from "../assets/img/Titulo.jpg";
 import { useNavigate } from "react-router-dom"; 
 
 function Studies() {
