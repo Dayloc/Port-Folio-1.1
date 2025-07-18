@@ -1,20 +1,20 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import react from "..\assets\img\react.png";
-import js from "..\assets\img\js.jpg";
-import ts from "..\assets\img\typescript_logo.png";
-import py from "..\assets\img\python.jpg";
-import html5 from "..\assets\img\html5.jpg";
-import bots from "..\assets\img\bootstrap-logo.png";
-import flsk from "..\assets\img\flask.png";
-import sql from "..\assets\img\sqla.png";
-import jwt from "..\assets\img\jwt.jpg";
-import css from "..\assets\img\CSS.png";
-import api from "..\assets\img\api.jpg";
-import msql from "..\assets\img\mysql.jpg";
-import ptsql from "..\assets\img\postSQL.png";
-import git from "..\assets\img\git.png";
-import hub from "..\assets\img\github.png";
+import react from "../assets/img/react.png";
+import js from "../assets/img/js.jpg";
+import ts from "../assets/img/typescript_logo.png";
+import py from "../assets/img/python.jpg";
+import html5 from "../assets/img/html5.jpg";
+import bots from "../assets/img/bootstrap-logo.png";
+import flsk from "../assets/img/flask.png";
+import sql from "../assets/img/sqla.png";
+import jwt from "../assets/img/jwt.jpg";
+import css from "../assets/img/CSS.png";
+import api from "../assets/img/api.jpg";
+import msql from "../assets/img/mysql.jpg";
+import ptsql from "../assets/img/postSQL.png";
+import git from "../assets/img/git.png";
+import hub from "../assets/img/github.png";
 
 
 function Technology() {
