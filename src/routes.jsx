@@ -13,7 +13,7 @@ import MyLife from "./pages/MyLife";
 import Projects from "./pages/Projects";
 import Studies from "./pages/Studies";
 import Experience from "./pages/Experience";
-import Tecnology from "./pages/Tecnology";
+import Technology from "./pages/Technology";
 import Future from "./pages/Future";
 
 export const router = createBrowserRouter(
@@ -35,7 +35,7 @@ export const router = createBrowserRouter(
         <Route path="/projects" element={<Projects />} />
         <Route path="/studies" element={<Studies />} />
         <Route path="/experience" element={<Experience />} />
-       <Route path="/tecnology" element={<Tecnology />} />
+       <Route path="/technology" element={<Technology />} />
        <Route path="/future" element={<Future />} />
       </Route>
     )

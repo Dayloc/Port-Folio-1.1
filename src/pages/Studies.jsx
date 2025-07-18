@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; 
 
 function Studies() {
+  const navigate = useNavigate()
   return (
     <div className=" text-warning">
       <h1 className="text-danger">FORMACIÓN</h1>
@@ -33,6 +35,7 @@ function Studies() {
           className="titulo img-fluid object-fit-contain"
         />
       </div>
+      <div className='text-center m-5'> <button className="btn btn-danger"  onClick={()=>navigate('/experience')} > Next</button></div>
     </div>
   );
 }

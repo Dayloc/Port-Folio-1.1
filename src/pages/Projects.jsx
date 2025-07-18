@@ -1,7 +1,9 @@
 import { projects } from "../data/projects";
+import { useNavigate } from "react-router-dom"; 
 
 
 function Projects(){
+  const navigate = useNavigate()
   return (
     <div className="container py-5">
       <h2 className="text-center neon-title mb-5">💻 Mis Proyectos</h2>
@@ -26,6 +28,7 @@ function Projects(){
           </div>
         ))}
       </div>
+      <div className='text-center m-5'> <button className="btn btn-danger"  onClick={()=>navigate('/studies')} > Next</button></div>
     </div>
   );
 };

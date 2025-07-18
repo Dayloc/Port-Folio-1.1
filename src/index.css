@@ -1,5 +1,5 @@
 body{
-    background-image: url("./assets/img/35152.jpg");
+  background-image: url("./assets/img/35152.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,32 +7,33 @@ body{
   margin: 0;
   display: flex;
   flex-direction: column;
- 
+ background-attachment: fixed;
 }
 .neon-text {
   color: rgb(237, 72, 246);
   text-shadow: 0 0 4px rgb(255, 0, 195), 0 0 8px rgb(255, 0, 149), 0 0 15px rgb(255, 0, 123);
   font-size: xx-large;
 }
-/* Asegúrate de que el body y html ocupen el 100% de altura */
+
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
-/* Wrapper general como flex container */
+
 .app-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* altura mínima = altura de la pantalla */
+  min-height: 100vh; 
 }
 
-/* Contenido que puede crecer */
+
 .content {
-  flex: 1; /* ocupa todo el espacio disponible entre header y footer */
+  flex: 1; 
 }
 
-/* Footer al final */
+
 .footer {
   
   text-align: center;
@@ -43,7 +44,7 @@ html, body {
 .typewriter {
   overflow: hidden;
   border-right: .15em solid rgb(255, 25, 0);
-  white-space: nowrap; /* ❗ Esto hará que el párrafo esté en una sola línea ❗ */
+  white-space: nowrap; 
   margin: 0 auto;
   letter-spacing: .1em;
   animation: typing 4s steps(80, end), blink-caret .75s step-end infinite;
@@ -70,12 +71,12 @@ h1.typewriter , p.typewriter {
   overflow: hidden;
   border-right: 3px solid rgba(0, 255, 255, 0);
   
-  /* La animación "typing" va mostrando el texto */
+  
   animation: typing 3s steps(40, end) forwards, 
              blinkCaret 0.7s step-end infinite;
 }
 
-/* Animación que simula el tipeo */
+
 @keyframes typing {
   from { width: 0 }
   to   { width: 100% }
@@ -103,6 +104,8 @@ h1.typewriter , p.typewriter {
 
 .nav-layout{
   flex-grow: 2;
+ 
+
 }
 .body-layout{
   flex-grow: 7;
@@ -181,11 +184,27 @@ h1.typewriter , p.typewriter {
   width: 500px;
   height: 400px;
 
-  -webkit-mask-image: radial-gradient(farthest-side at center, black 50%, transparent 100%);
-  mask-image: radial-gradient(farthest-side at center, black 50%, transparent 100%);
+  -webkit-mask-image: radial-gradient(farthest-side at center, rgba(255, 0, 0, 0.529) 50%, transparent 100%);
+  mask-image: radial-gradient(farthest-side at center, rgb(245, 118, 33) 50%, transparent 100%);
 }
 
 .itegnologies{
   width: 100px;
   height: 90px;
+}
+
+.navbar-menu{
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 0px 10px orange;
+}
+
+
+.vision-section {
+  background-color: rgba(0, 0, 0, 0.6);  
+  border-radius: 20px;
+  border: 1px solid rgba(255, 183, 0, 0.2);
+  box-shadow: 0 0 25px rgba(255, 111, 0, 0.1);
+  max-width: 960px;
+  margin: 0 auto;
 }
