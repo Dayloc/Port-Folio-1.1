@@ -5,7 +5,7 @@ function Experience() {
     const navigate = useNavigate()
   return (
     <div className=' text-light'>
-      <h1>Experience</h1>
+      <h1>Experiencia</h1>
 <h3 className='text-warning'>Enero 2025 - Actual</h3>
 <h1 className='text-danger'>Teacher Assistant y Mentor  4Geeks Academy</h1>
  

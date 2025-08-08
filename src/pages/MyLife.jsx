@@ -6,7 +6,7 @@ function MyLife() {
   return (
     <div className='container m-5  '>
 
-       <h1 className="fade-text fs-1 text-danger">My Life</h1>
+       <h1 className="fade-text fs-1 text-danger">Sobre mi</h1>
 
       <p className='typewriter '>
       Desde joven, la lógica y las matemáticas despertaron en mí una curiosidad <br /> que pronto se transformó en pasión por la informática.  <br />

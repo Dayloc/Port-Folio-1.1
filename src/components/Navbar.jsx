@@ -24,12 +24,12 @@ function Navbar() {
           <ul className="navbar-nav w-100 d-flex justify-content-between">
             {[
               { path: "/", label: "🏠 Home" },
-              { path: "/myLife", label: "My Life" },
-              { path: "/projects", label: "Projects" },
-              { path: "/studies", label: "Study" },
-              { path: "/experience", label: "Experience" },
-              { path: "/technology", label: "Technology" },
-              { path: "/future", label: "Future" },
+              { path: "/myLife", label: "Sobre mi" },
+              { path: "/projects", label: "Projectos" },
+              { path: "/studies", label: "Estudios" },
+              { path: "/experience", label: "Experiencia" },
+              { path: "/technology", label: "Herramientas" },
+              { path: "/future", label: "Aspiraciones" },
             ].map(({ path, label }) => (
               <li className="nav-item flex-grow-1 mx-1" key={path}>
                 <button
