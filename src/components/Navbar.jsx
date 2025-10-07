@@ -25,7 +25,7 @@ function Navbar() {
             {[
               { path: "/", label: "🏠 Home" },
               { path: "/myLife", label: "Sobre mi" },
-              { path: "/projects", label: "Projectos" },
+              { path: "/projects", label: "Proyectos" },
               { path: "/studies", label: "Estudios" },
               { path: "/experience", label: "Experiencia" },
               { path: "/technology", label: "Herramientas" },
