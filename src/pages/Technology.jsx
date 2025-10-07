@@ -7,7 +7,7 @@ import py from "../assets/img/python.jpg";
 import html5 from "../assets/img/html5.jpg";
 import bots from "../assets/img/bootstrap-logo.png";
 import flsk from "../assets/img/flask.png";
-import sql from "../assets/img/sqla.png";
+import sql from "../assets/img/sqlA.png";
 import jwt from "../assets/img/jwt.jpg";
 import css from "../assets/img/CSS.png";
 import api from "../assets/img/api.jpg";
