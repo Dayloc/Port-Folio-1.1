@@ -36,10 +36,10 @@ export const projects =[
     link: "https://github.com/4GeeksAcademy/Api-StartWar-Dayloc",
   },
   {
-    name: "HealthCenter",
+    name: "ProyectoGestorCentroSalud",
     description: "App para gestionar turnos médicos y pacientes 💢en proceso.",
     image: salud,
-    link: "https://github.com/Dayloc/AppointmentHealthCenter",
+    link: "https://github.com/Dayloc/ProyectoGestorCentroSalud",
   },
 ]
 

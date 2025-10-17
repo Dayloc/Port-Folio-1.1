@@ -208,3 +208,42 @@ h1.typewriter , p.typewriter {
   max-width: 960px;
   margin: 0 auto;
 }
+.columna-izq .columna-derecha{
+  width: 50%;
+}
+
+/* Tarjeta de proyecto publicado */
+.publicado {
+  background: rgba(0, 50, 0, 0.8); /* fondo oscuro verdoso */
+  border: 3px solid #00ff99; /* borde verde neón */
+  border-radius: 1rem;
+  box-shadow: 0 0 15px #00ff99, 0 0 30px #00ff99 inset;
+  color: #00ffcc; /* texto verde-azulado */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.publicado:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00ff99, 0 0 50px #00ff99 inset;
+}
+
+.publicado h5 {
+  color: #00ff99;
+  text-shadow: 0 0 10px #00ff99, 0 0 20px #00ffcc;
+}
+
+.publicado p {
+  color: #ccffdd;
+}
+
+.publicado .btn-neon {
+  border-color: #00ff99;
+  color: #00ff99;
+  text-shadow: 0 0 10px #00ff99;
+}
+
+.publicado .btn-neon:hover {
+  background-color: #00ff99;
+  color: black;
+  box-shadow: 0 0 20px #00ff99, 0 0 40px #00ffcc;
+}
