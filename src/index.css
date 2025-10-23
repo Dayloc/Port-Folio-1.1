@@ -1,8 +1,6 @@
 body{
-  background-image: url("./assets/img/35152.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  
+ background-color: rgb(3, 1, 44);
   height: 100vh;
   margin: 0;
   display: flex;
@@ -43,7 +41,7 @@ html, body {
 }
 .typewriter {
   overflow: hidden;
-  border-right: .15em solid rgb(255, 25, 0);
+  border-right: .15em solid rgb(212, 166, 243);
   white-space: nowrap; 
   margin: 0 auto;
   letter-spacing: .1em;
@@ -66,7 +64,7 @@ html, body {
 h1.typewriter , p.typewriter {
   font-family: monospace;
   font-size: 1.5rem;
-  color: rgb(255, 174, 0);
+  color: rgb(0, 229, 255);
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid rgba(0, 255, 255, 0);
