@@ -13,7 +13,7 @@ export const Layout = () => {
       <div className="nav-layout  ">
         <Navbar />
       </div>
-      <div className="body-layout ">
+      <div className="body-layout d-flex flex-column justify-content-center align-items-center">
         <Outlet />
       </div>
 
