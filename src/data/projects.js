@@ -10,12 +10,7 @@ import star1 from "../assets/img/star1.png";
 
 
 export const projects =[
-  {
-     name: "ToDo-List-Fetch",
-    description: "App para gestionar tareas.",
-    image: todo,
-    link: "https://github.com/Dayloc/TODO_LIST_MENTORIA_Beginner",
-  },
+ 
    {
      name: "Contacts-List",
     description: "App para gestionar contactos.",

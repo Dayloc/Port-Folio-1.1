@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 function Studies() {
   const navigate = useNavigate()
   return (
-    <div className=" text-warning">
-      <h1 className="text-danger">FORMACIÓN</h1>
+    <div className=" text-white">
+      <h1 className="text-info">FORMACIÓN</h1>
       <div className="container">
         <div className="row ">
           <div className="col">
@@ -36,7 +36,7 @@ function Studies() {
           className="titulo img-fluid object-fit-contain"
         />
       </div>
-      <div className='text-center m-5'> <button className="btn btn-danger"  onClick={()=>navigate('/experience')} > Next</button></div>
+      <div className='text-center m-5'> <button className="button"  onClick={()=>navigate('/experience')} > Next</button></div>
     </div>
   );
 }

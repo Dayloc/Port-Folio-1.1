@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom'
 function MyLife() {
   const navigate = useNavigate()
   return (
-    <div className='container m-5  '>
+    <div className='container descripcion m-5  d-flex flex-column justify-content-center align-items-center '>
 
-       <h1 className="fade-text fs-1 text-white">Sobre mi</h1>
+       
 
       <p className='typewriter '>
       Desde joven, la lógica y las matemáticas despertaron en mí una curiosidad <br /> que pronto se transformó en pasión por la informática.  <br />
@@ -16,7 +16,7 @@ function MyLife() {
       Este Bootcamp se llama <span className='text-primary'>4GeckAcademy</span>. <br /> 
       Hoy, desarrollo aplicaciones con propósito, creatividad y visión de futuro.
       </p>
-      <div className='text-center m-5'> <button className="btn btn-danger"  onClick={()=>navigate('/projects')} > Next</button></div>
+      <div className='text-center m-5'> <button className="button"  onClick={()=>navigate('/projects')} > Next</button></div>
      
     </div>
   )
