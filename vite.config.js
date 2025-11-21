@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Port-Folio-1.1/',  
+  
   server: {
-    port: 3000
+    port: 3000,
+    host:true
   },
   build: {
     outDir: 'dist'
