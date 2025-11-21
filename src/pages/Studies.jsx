@@ -1,5 +1,6 @@
 import React from "react";
 import titulo from "../assets/img/Titulo.jpg";
+import TecnicasAvanzadasDiseñoWeb from "../assets/img/TecnicasAvanzadasDiseñoWeb.png";
 import { useNavigate } from "react-router-dom"; 
 
 function Studies() {
@@ -29,13 +30,24 @@ function Studies() {
       <h3 className="text-dark-emphasis">CERTIFICATIONS</h3>
       <span className="certification">      
       </span>
-      <div className="m-0">
+      <div className="d-flex justify-content-around">
+        <div className="m-0 ">
         <img
           src={titulo}
           alt=""
           className="titulo img-fluid object-fit-contain"
         />
       </div>
+      <div className="m-0">
+        <img
+          src={TecnicasAvanzadasDiseñoWeb}
+          alt=""
+          className="titulo img-fluid object-fit-contain"
+        />
+      </div>
+
+      </div>
+      
       <div className='text-center m-5'> <button className="button"  onClick={()=>navigate('/experience')} > Next</button></div>
     </div>
   );
